@@ -1,0 +1,60 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;/*Centering button*/
+    /* margin-top: 100px; */
+}
+
+.left_side{
+    margin-left: 25px;
+    height: 90%;
+     inline-size: 450px; /*text wrapping(it's like flexbox size) */
+}
+
+.right_side{
+    width: 840px;
+    height: 90%;
+}
+
+p{  
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    font-size: larger;
+    font-style: italic;
+}
+
+#first{
+   text-align: center;
+}
+
+#MoreInfo{
+    text-decoration: none;
+}
+
+.button1{
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    text-decoration:black;
+    font-weight: bold;
+    background-color: chartreuse;
+}
+
+li {
+    float: left;
+  }
+  
+  a{
+    display: block;
+    padding: 6px;
+    background-color: #f0ecec;
+    text-decoration: none;
+  }
+  .menu-bar{
+    position:fixed;
+    height: 90%;
+  }
+  nav{
+    background-color: darkorange;
+  }
